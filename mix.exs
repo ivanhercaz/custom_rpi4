@@ -1,9 +1,9 @@
-defmodule NervesSystemRpi4Custom.MixProject do
+defmodule CustomRpi4.MixProject do
   use Mix.Project
 
-  @github_organization "molecula"
-  @app :nerves_system_rpi4_custom
-  @source_url "https://codeberg.com/#{@github_organization}/#{@app}"
+  @github_organization "ivanhercaz"
+  @app :custom_rpi4
+  @source_url "https://github.com/#{@github_organization}/#{@app}"
   @version Path.join(__DIR__, "VERSION")
            |> File.read!()
            |> String.trim()
